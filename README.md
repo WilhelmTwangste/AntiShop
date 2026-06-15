@@ -128,19 +128,64 @@
 
 ## Скриншоты
 
-### Авторизация
+### Главная страница
 
-![Login](docs/login.png)
+<p align="center">
+  <img src="docs/Home.png" width="800">
+</p>
+
+### Главная страница (альтернативный вид)
+
+<p align="center">
+  <img src="docs/Home2.png" width="800">
+</p>
+
+### Авторизация пользователя
+
+<p align="center">
+  <img src="docs/Sign.png" width="800">
+</p>
 
 ### Каталог товаров
 
-![Products](docs/products.png)
+<p align="center">
+  <img src="docs/Items.png" width="800">
+</p>
 
-### Управление заказами
+### Поиск товаров
 
-![Orders](docs/orders.png)
+<p align="center">
+  <img src="docs/Find.png" width="800">
+</p>
 
-### Панель администратора
+### Создание заказа
 
-![Admin](docs/admin.png)
+<p align="center">
+  <img src="docs/CreateOrders.png" width="800">
+</p>
+
+### Список заказов
+
+<p align="center">
+  <img src="docs/Orders.png" width="800">
+</p>
+
+### Редактирование товара
+
+<p align="center">
+  <img src="docs/UpdateItems.png" width="800">
+</p>
+
+### Удаление товара
+
+<p align="center">
+  <img src="docs/Delete.png" width="800">
+</p>
+
+### Обработка ошибок при удалении
+
+<p align="center">
+  <img src="docs/DeleteNo.png" width="800">
+</p>
+</p>
 
