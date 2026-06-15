@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\project\\shop\\AntiShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F67ECC-19F2-4536-9F0A-5958AD39CFAE}|TestProject1\\TestProject1.csproj|e:\\project\\shop\\antishop\\testproject1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F67ECC-19F2-4536-9F0A-5958AD39CFAE}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F67ECC-19F2-4536-9F0A-5958AD39CFAE}|TestProject1\\TestProject1.csproj|e:\\project\\shop\\antishop\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F67ECC-19F2-4536-9F0A-5958AD39CFAE}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\views\\admin\\items.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\views\\admin\\items.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\views\\admin\\additem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\views\\admin\\additem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\antishop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\antishop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\views\\account\\_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\views\\account\\_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\views\\report\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\views\\report\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\views\\warehousekeeper\\items.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\views\\warehousekeeper\\items.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\controllers\\warehousekeepercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\controllers\\warehousekeepercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\views\\order\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\views\\order\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\views\\accountant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\views\\accountant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\models\\ordertwoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\models\\ordertwoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|e:\\project\\shop\\antishop\\antishop\\views\\gallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0634DFF6-7180-49C3-A621-1C4F765BCB7A}|AntiShop\\AntiShop.csproj|solutionrelative:antishop\\views\\gallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{472907F8-1770-4917-BE19-149EA9BF53EC}|ToDoList\\ToDoList.Domain.csproj|e:\\project\\shop\\antishop\\todolist\\entites\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{472907F8-1770-4917-BE19-149EA9BF53EC}|ToDoList\\ToDoList.Domain.csproj|solutionrelative:todolist\\entites\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{472907F8-1770-4917-BE19-149EA9BF53EC}|ToDoList\\ToDoList.Domain.csproj|e:\\project\\shop\\antishop\\todolist\\todolistcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{472907F8-1770-4917-BE19-149EA9BF53EC}|ToDoList\\ToDoList.Domain.csproj|solutionrelative:todolist\\todolistcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "AntiShop\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "AntiShop\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwEwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T06:34:11.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Items.cshtml",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Admin\\Items.cshtml",
+              "RelativeDocumentMoniker": "AntiShop\\Views\\Admin\\Items.cshtml",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Admin\\Items.cshtml",
+              "RelativeToolTip": "AntiShop\\Views\\Admin\\Items.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAHMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T10:40:54.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\TestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject1\\UnitTest1.cs",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\TestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject1\\UnitTest1.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T19:24:26.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Login.cshtml",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Account\\_Login.cshtml",
+              "RelativeDocumentMoniker": "AntiShop\\Views\\Account\\_Login.cshtml",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Account\\_Login.cshtml",
+              "RelativeToolTip": "AntiShop\\Views\\Account\\_Login.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T13:15:02.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\TestProject1\\Class1.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Class1.cs",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\TestProject1\\Class1.cs",
+              "RelativeToolTip": "TestProject1\\Class1.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAYwIkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:22:33.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AntiShop.csproj",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\AntiShop.csproj",
+              "RelativeDocumentMoniker": "AntiShop\\AntiShop.csproj",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\AntiShop.csproj",
+              "RelativeToolTip": "AntiShop\\AntiShop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-20T12:27:42.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddItem.cshtml",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Admin\\AddItem.cshtml",
+              "RelativeDocumentMoniker": "AntiShop\\Views\\Admin\\AddItem.cshtml",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Admin\\AddItem.cshtml",
+              "RelativeToolTip": "AntiShop\\Views\\Admin\\AddItem.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwEcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T06:08:58.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AntiShop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AntiShop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwF0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T14:47:12.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AntiShop\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AntiShop\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAYwFEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:41:37.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Reports.cshtml",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Report\\Reports.cshtml",
+              "RelativeDocumentMoniker": "AntiShop\\Views\\Report\\Reports.cshtml",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Report\\Reports.cshtml",
+              "RelativeToolTip": "AntiShop\\Views\\Report\\Reports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T11:24:04.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "AntiShop\\Controllers\\ReportController.cs",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "AntiShop\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwE0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:27:57.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Order\\Orders.cshtml",
+              "RelativeDocumentMoniker": "AntiShop\\Views\\Order\\Orders.cshtml",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Order\\Orders.cshtml",
+              "RelativeToolTip": "AntiShop\\Views\\Order\\Orders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T14:11:22.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Accountant\\Index.cshtml",
+              "RelativeDocumentMoniker": "AntiShop\\Views\\Accountant\\Index.cshtml",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Accountant\\Index.cshtml",
+              "RelativeToolTip": "AntiShop\\Views\\Accountant\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T14:44:46.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Items.cshtml",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\WarehouseKeeper\\Items.cshtml",
+              "RelativeDocumentMoniker": "AntiShop\\Views\\WarehouseKeeper\\Items.cshtml",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\WarehouseKeeper\\Items.cshtml",
+              "RelativeToolTip": "AntiShop\\Views\\WarehouseKeeper\\Items.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T14:47:54.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Models\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "AntiShop\\Models\\OrderViewModel.cs",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Models\\OrderViewModel.cs",
+              "RelativeToolTip": "AntiShop\\Models\\OrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:11:27.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GalleryController.cs",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Controllers\\GalleryController.cs",
+              "RelativeDocumentMoniker": "AntiShop\\Controllers\\GalleryController.cs",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Controllers\\GalleryController.cs",
+              "RelativeToolTip": "AntiShop\\Controllers\\GalleryController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwDcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:48:10.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "AntiShop\\Controllers\\OrderController.cs",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "AntiShop\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:19:19.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WarehouseKeeperController.cs",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Controllers\\WarehouseKeeperController.cs",
+              "RelativeDocumentMoniker": "AntiShop\\Controllers\\WarehouseKeeperController.cs",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Controllers\\WarehouseKeeperController.cs",
+              "RelativeToolTip": "AntiShop\\Controllers\\WarehouseKeeperController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:48:55.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderTwoViewModel.cs",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Models\\OrderTwoViewModel.cs",
+              "RelativeDocumentMoniker": "AntiShop\\Models\\OrderTwoViewModel.cs",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Models\\OrderTwoViewModel.cs",
+              "RelativeToolTip": "AntiShop\\Models\\OrderTwoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:35:25.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Gallery\\Index.cshtml",
+              "RelativeDocumentMoniker": "AntiShop\\Views\\Gallery\\Index.cshtml",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\AntiShop\\Views\\Gallery\\Index.cshtml",
+              "RelativeToolTip": "AntiShop\\Views\\Gallery\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T10:56:37.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Image.cs",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\ToDoList\\Entites\\Image.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Entites\\Image.cs",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\ToDoList\\Entites\\Image.cs",
+              "RelativeToolTip": "ToDoList\\Entites\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:45:49.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ToDoListContext.cs",
+              "DocumentMoniker": "E:\\project\\shop\\AntiShop\\ToDoList\\ToDoListContext.cs",
+              "RelativeDocumentMoniker": "ToDoList\\ToDoListContext.cs",
+              "ToolTip": "E:\\project\\shop\\AntiShop\\ToDoList\\ToDoListContext.cs",
+              "RelativeToolTip": "ToDoList\\ToDoListContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:25:20.66Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<AntiShop.Models.OrderTwoViewModel>
+
+<h2>Отчет по продажам</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Дата заказа</th>
+            <th>Название заказа</th>
+            <th>Общая сумма</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderDate</td>
+                <td>@order.NameOrder</td>
+                <td>@order.TotalAmount.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p><strong>Общий доход: @ViewBag.TotalIncome.ToString("C")</strong></p>
+
+<form asp-action="DownloadExcel" method="post">
+    <button type="submit" class="btn btn-primary">Скачать отчет в эксель</button>
+</form>

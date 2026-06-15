@@ -1,0 +1,142 @@
+﻿@model ToDoList.Domain.Entites.Item
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Редактировать товар"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>@ViewData["Редактировать товар"]</h2>
+
+        <h2>Редактировать товар</h2>
+
+        <form asp-action="EditItem" method="post">
+            <input type="hidden" name="Id" value="@Model.Id"/>
+            <div class="mb-3">
+                <label for="title" class="form-label">Название</label>
+                <input type="text" class="form-control" id="title" name="title" value="@Model.Title" required />
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Описание</label>
+                <input type="text" class="form-control" id="description" name="description" value="@Model.Description" required />
+            </div>
+            <div class="mb-3">
+                <label for="price" class="form-label">Цена</label>
+                <input type="number" class="form-control" id="price" name="price" value="@Model.Price" step="0.01" required />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="date" class="form-label">Дата доставки</label>
+                <input type="text" class="form-control" id="date" name="date" value="@Model.DateDelivery" required />
+                <span asp-validation-for="DateDelivery" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="inventory" class="form-label">Количество на складе</label>
+                <input type="number" class="form-control" id="inventory" name="inventory" value="@Model.Inventory" required />
+                <span asp-validation-for="Inventory" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="vendorID" class="form-label">Поставщик</label>
+                <select class="form-control" id="vendorID" name="vendorID" required>
+                    <option value="">Выберите поставщика</option>
+                    @if (ViewBag.Vendor != null)
+                    {
+                        foreach (var vendor in ViewBag.Vendor)
+                        {
+                            var isSelected = vendor.Id == Model.VendorID ? "selected" : "";
+                            <option value="@vendor.Id" selected="@isSelected">@vendor.Id</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="VendorID" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="discountID" class="form-label">Скидка</label>
+                <select class="form-control" id="discountID" name="discountID" required>
+                    <option value="">Выберите скидку</option>
+                    @if (ViewBag.Discount != null)
+                    {
+                        foreach (var discount in ViewBag.Discount)
+                        {
+                            var isSelected = discount.Id == Model.DiscountID ? "selected" : "";
+                            <option value="@discount.Id" selected="@isSelected">@discount.Id</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="DiscountID" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-save"></i> Сохранить
+            </button>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Items">
+                <i class="fas fa-arrow-left"></i> Назад к списку товаров
+            </a>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h2>Список Поставщиков</h2>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Дата</th>
+                                <th>Цена</th>
+                                <th>Комиссия</th>
+                                <th>Клиент</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (ViewBag.Vendor != null)
+                            {
+                                foreach (var vendor in ViewBag.Vendor)
+                                {
+                                    <tr>
+                                        <td>@vendor.Id</td>
+                                        <td>@vendor.VendorDate</td>
+                                        <td>@vendor.VendorPrice</td>
+                                        <td>@vendor.Commission</td>
+                                        <td>@vendor.NameClient</td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-md-6">
+                    <h2>Список Скидок</h2>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Описание</th>
+                                <th>Процент</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (ViewBag.Discount != null)
+                            {
+                                foreach (var discount in ViewBag.Discount)
+                                {
+                                    <tr>
+                                        <td>@discount.Id</td>
+                                        <td>@discount.Description</td>
+                                        <td>@discount.Percents</td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

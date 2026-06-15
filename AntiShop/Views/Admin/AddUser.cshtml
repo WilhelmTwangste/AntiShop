@@ -1,0 +1,67 @@
+﻿@model AntiShop.Models.UserViewModel
+
+@{
+    ViewData["Title"] = "Добавить пользователя";
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        /* Стили для прозрачного текста пароля */
+        .password-cell {
+            color: transparent; /* Прозрачный цвет текста */
+            transition: color 0.3s; /* Плавный переход цвета */
+        }
+
+            .password-cell:hover {
+                color: black; /* Черный цвет текста при наведении */
+            }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Добавить нового пользователя</h1>
+        @if (ViewBag.SuccessMessage != null)
+        {
+            <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+        }
+        <form method="post" asp-action="AddUser">
+            <div class="mb-3">
+                <label for="login" class="form-label">Логин</label>
+                <input type="text" class="form-control" id="login" name="login" required />
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Пароль</label>
+                <input type="password" class="form-control" id="password" name="password" required />
+            </div>
+            <div class="mb-3">
+                <label for="role" class="form-label">Роль</label>
+                <select class="form-select" id="role" name="role" required>
+                    <option value="" disabled selected>Выберите роль</option>
+                    <option value="Admin">Администратор</option>
+                    <option value="Accountant">Бухгалтер</option>
+                    <option value="WarehouseKeeper">Товаровед</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Создать</button>
+        </form>
+
+        
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#viewUsersBtn').click(function () {
+                $('#usersTable').toggle(); // Переключение видимости таблицы пользователей
+            });
+        });
+    </script>
+</body>
+</html>

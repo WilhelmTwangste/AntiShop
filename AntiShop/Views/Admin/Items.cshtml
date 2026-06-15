@@ -1,0 +1,116 @@
+﻿@model IEnumerable<ToDoList.Domain.Entites.Item>
+
+@{
+    ViewData["Title"] = "Список товаров";
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Список товаров</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Список товаров</h2>
+
+        <div class="mb-3">
+            <a id="AddItem" asp-action="AddItem" class="btn btn-primary">
+                <i class="fas fa-plus"></i> Добавить новый товар
+            </a>
+        </div>
+        <div class="mb-3">
+            <a asp-controller="Gallery" asp-action="Index" class="btn btn-primary">
+                <i class="fas fa-plus"></i> Галерея
+            </a>
+        </div>
+
+        <form method="get" asp-action="Items" class="mb-3">
+            <div class="input-group">
+                <input type="text" name="searchTerm" class="form-control" placeholder="Поиск по названию" />
+                <button type="submit" class="btn btn-secondary">
+                    <i class="fas fa-search"></i> Поиск
+                </button>
+ 
+            </div>
+            @if (ViewBag.Message != null)
+            {
+                <div class="alert alert-warning">
+                    @ViewBag.Message
+                </div>
+            }
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger">
+                    @TempData["ErrorMessage"]
+                </div>
+            }
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Поставщик</th>
+                        <th>Скидка</th>
+                        <th>Название</th>
+                        <th>Описание</th>
+                        <th>Цена</th>
+                        <th>Дата выкупа</th>
+                        <th>Количество на складе</th>
+                        <th>Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td id="idItem">@item.Id</td>
+                                <td>@item.VendorID</td>
+                                <td>@item.DiscountID</td>
+                                <td>@item.Title</td>
+                                <td>@item.Description</td>
+                                <td>@item.Price.ToString("C", System.Globalization.CultureInfo.CurrentCulture)</td>
+                                <td>@item.DateDelivery</td>
+                                <td>@item.Inventory</td>
+                                <td>
+                                    <a asp-action="EditItem" asp-route-id="@item.Id" class="btn btn-ligh">
+                                        <i class="fas fa-edit"></i> Редактировать
+                                    </a>
+                                    <form asp-action="DeleteConfirmed" method="post" style="display:inline;">
+                                        <input type="hidden" name="id" value="@item.Id" />
+                                        <button type="submit" class="btn btn-ligh" onclick="return confirm('Вы уверены, что хотите удалить этот товар?');">
+                                            <i class="fas fa-trash"></i> Удалить
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="9" class="text-center">Нет доступных товаров.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </form>
+    </div>
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

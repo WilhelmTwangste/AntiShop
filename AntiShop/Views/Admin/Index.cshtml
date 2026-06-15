@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Администратор";
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title">@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 id="title" class="text-center">Добро пожаловать, администратор!</h1>
+        <p class="text-center">Здесь вы можете управлять приложением, контролируя работу магазина изнутри. Вы имеете доступ ко всем функциям информационной системы.</p>
+
+        <div class="card bg-light mb-4">
+            <div class="card-body">
+                <h3>Обязанности администратора антикварного магазина:</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">Управление пользователями: добавление новых учетных записей.</li>
+                    <li class="list-group-item">Управление товарами: добавление новых артефактов, редактирование информации о них и удаление.</li>
+                    <li class="list-group-item">Обработка заказов: отслеживание и управление заказами клиентов.</li>
+                    <li class="list-group-item">Контроль отчетов: создание отчетов о продажах.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card bg-light mb-4">
+            <div class="card-body">
+                <h3>Статистика пользователей:</h3>
+                <p>Количество зарегистрированных учетных записей: <strong>@Model.UserCount</strong></p>
+                <p>Распределение ролей:</p>
+                <ul class="list-group">
+                    <li class="list-group-item">Администраторы: <strong>@Model.AdminCount</strong></li>
+                    <li class="list-group-item">Товароведы: <strong>@Model.ItemCount</strong></li>
+                    <li class="list-group-item">Бухгалтера: <strong>@Model.AccountantCount</strong></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card bg-light mb-4">
+            <div class="card-body">
+                <h3>Артефакты, которые мы выкупили:</h3>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="~/images/im11.jpg" alt="Первый артефакт">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="~/images/im2.jpeg" alt="Второй артефакт">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="~/images/im3.jpeg" alt="Третий артефакт">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Предыдущий</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Следующий</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+</html>

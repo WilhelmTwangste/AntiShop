@@ -1,0 +1,85 @@
+﻿@model IEnumerable<AntiShop.Models.OrderViewModel>
+
+@{
+    ViewData["Title"] = "История покупок";
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Список заказов</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>История покупок</h2>
+
+        <div class="mb-3">
+            <a asp-action="AddOrder" class="btn btn-primary">
+                <i class="fas fa-plus"></i> Создать заказ
+            </a>
+        </div>
+
+        <form method="get" asp-action="Orders" class="mb-3">
+            <div class="input-group">
+                <input type="text" name="searchTerm" class="form-control" placeholder="Поиск по айди" />
+                <button type="submit" class="btn btn-secondary">
+                    <i class="fas fa-search"></i> Поиск
+                </button>
+            </div>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>OrderID</th>
+                        <th>Дата заказа</th>
+                        <th>Стоимость</th>
+                        <th>Название</th>
+                        <th>Товары</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var orderViewModel in Model)
+                        {
+                            <tr>
+                                <td>@orderViewModel.Order.Id</td>
+                                <td>@orderViewModel.Order.OrderDate</td>
+                                <td>@orderViewModel.Order.TotalAmount</td>
+                                <td>@orderViewModel.Order.NameOrder</td>
+                                <td>
+                                    @if (orderViewModel.Items != null && orderViewModel.Items.Any())
+                                    {
+                                        <ul>
+                                            @foreach (var item in orderViewModel.Items)
+                                            {
+                                                <li>@item.Title (ID: @item.Id)</li>
+                                            }
+                                        </ul>
+                                    }
+                                    else
+                                    {
+                                        <span>Нет товаров в заказе</span>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center">Нет доступных Заказов.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

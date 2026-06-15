@@ -1,0 +1,14 @@
+E:\project\shop\AntiShop\ToDoList\obj\Debug\net8.0\ToDoList.Domain.csproj.AssemblyReference.cache
+E:\project\shop\AntiShop\ToDoList\obj\Debug\net8.0\ToDoList.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\project\shop\AntiShop\ToDoList\obj\Debug\net8.0\ToDoList.Domain.AssemblyInfoInputs.cache
+E:\project\shop\AntiShop\ToDoList\obj\Debug\net8.0\ToDoList.Domain.AssemblyInfo.cs
+E:\project\shop\AntiShop\ToDoList\obj\Debug\net8.0\ToDoList.Domain.csproj.CoreCompileInputs.cache
+E:\project\shop\AntiShop\ToDoList\bin\Debug\net8.0\ToDoList.Domain.deps.json
+E:\project\shop\AntiShop\ToDoList\bin\Debug\net8.0\ToDoList.Domain.runtimeconfig.json
+E:\project\shop\AntiShop\ToDoList\bin\Debug\net8.0\ToDoList.Domain.dll
+E:\project\shop\AntiShop\ToDoList\bin\Debug\net8.0\ToDoList.Domain.pdb
+E:\project\shop\AntiShop\ToDoList\obj\Debug\net8.0\ToDoList.Domain.dll
+E:\project\shop\AntiShop\ToDoList\obj\Debug\net8.0\refint\ToDoList.Domain.dll
+E:\project\shop\AntiShop\ToDoList\obj\Debug\net8.0\ToDoList.Domain.pdb
+E:\project\shop\AntiShop\ToDoList\obj\Debug\net8.0\ToDoList.Domain.genruntimeconfig.cache
+E:\project\shop\AntiShop\ToDoList\obj\Debug\net8.0\ref\ToDoList.Domain.dll
